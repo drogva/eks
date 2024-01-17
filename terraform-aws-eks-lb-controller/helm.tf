@@ -9,7 +9,7 @@ resource "helm_release" "lb_controller" {
 
   set {
     name  = "clusterName"
-    value = var.cluster_name1
+    value = var.cluster_name
   }
 
   set {
